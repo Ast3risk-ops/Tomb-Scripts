@@ -47,23 +47,25 @@ If the wget command doesn't work go [here](https://files.dyne.org/tomb) and down
  ./digTomb.sh
  ```
  to dig your first tomb.
+## Note
 
+ If you have a problem with the scripts not being executable, while in the directory with the scripts in it, type:
+ ```bash
+ chmod u+x name_of_script.sh
+ ```
+ replacing name_of_script with the script's name
  # What do the scripts do?
 
  1. digTomb digs a tomb, forges a key using a password supplied by the user, and locks the tomb
  2. closeTomb closes the tomb
  3. closeAll closes all open tombs
  4. openTomb opens a tomb
- 5. jpgKey hides the key for your tomb in an image
+ 5. jpgKey hides the key for your tomb in an image, it then can be used as a key when prompted
  6. slamTomb closes a tomb even if there are processes interacting with it, as closeTomb will not close the tomb if there are processes interacting with the tomb.
  7. listTomb lists all open tombs.
  8. slamAll slams all open tombs.
  9. resizeTomb.sh resizes a tomb
 
- # Note
 
- If you have a problem with the scripts not being executable, type:
- ```bash
- chmod u+x name_of_script.sh
- ```
- replacing name_of_script with the script's name
+ # Rules of use
+You can use the scripts for free. You can make improvements but please inform me through GitHub and I will make the changes and attribute you. You can copy and distribute the software so long as you attribute the original author.
