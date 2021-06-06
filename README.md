@@ -31,7 +31,7 @@ cd Tomb-2.9
 sudo make install
 ```
 Or you can install tomb using your system's package manager.
-If the wget command doesn't work go [here](https://files.dyne.org/tomb) and download the .tar.gz
+If the wget command doesn't work go [here](https://files.dyne.org/tomb) and download the .tar.gz. After, run the rest of the commands.
 
  ## Run the scripts
  click the big green "Code" button, then, click "Download ZIP."
