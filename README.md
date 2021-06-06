@@ -12,8 +12,27 @@
  ### Debian/Ubuntu
 
  ```bash
- sudo apt install tomb
+ sudo apt install tomb gnupg zsh cryptsetup pinentry-curses steghide	
  ```
+ ### CentOS/Fedora
+ ```bash
+ sudo yum install tomb gnupg zsh cryptsetup pinentry-curses steghide
+ ```
+ or
+ ```bash
+ sudo dnf install tomb gnupg zsh cryptsetup pinentry-curses steghide
+ ```	
+### Other
+```bash
+cd Downloads
+wget -c https://files.dyne.org/tomb/Tomb-2.9.tar.gz
+tar -xzvf Tomb-2.9.tar.gz
+cd Tomb-2.9
+sudo make install
+```
+Or you can install tomb using your system's package manager.
+If the wget command doesn't work go [here](https://files.dyne.org/tomb) and download the .tar.gz
+
  ## Run the scripts
  click the big green "Code" button, then, click "Download ZIP."
  Extract the zip to any directory.
