@@ -6,23 +6,25 @@
  It is protected by a password and you can hide the key in an image.
 
  # Installation
-
- ## Prerequisites
  
- ### Debian/Ubuntu
+ ## Debian/Ubuntu
 
  ```bash
- sudo apt install tomb gnupg zsh cryptsetup pinentry-curses steghide	
+ sudo apt install gnupg zsh cryptsetup pinentry-curses steghide	
+ sudo apt install tomb	
  ```
- ### CentOS/Fedora
+ ## CentOS/Fedora
  ```bash
- sudo yum install tomb gnupg zsh cryptsetup pinentry-curses steghide
+ sudo yum install gnupg zsh cryptsetup pinentry-curses steghide	
+ sudo yum install tomb
  ```
  or
  ```bash
- sudo dnf install tomb gnupg zsh cryptsetup pinentry-curses steghide
+ sudo dnf install gnupg zsh cryptsetup pinentry-curses steghide	
+ sudo dnf install tomb
  ```	
-### Other
+## Other
+Before doing this please install the prerequisites first. this is just incase you can't install tomb.
 ```bash
 cd Downloads
 wget -c https://files.dyne.org/tomb/Tomb-2.9.tar.gz
@@ -33,7 +35,7 @@ sudo make install
 Or you can install tomb using your system's package manager.
 If the wget command doesn't work go [here](https://files.dyne.org/tomb) and download the .tar.gz. After, run the rest of the commands.
 
- ## Run the scripts
+ # Run the scripts
  click the big green "Code" button, then, click "Download ZIP."
  Extract the zip to any directory.
  Once that is done, run:
@@ -54,6 +56,14 @@ If the wget command doesn't work go [here](https://files.dyne.org/tomb) and down
  chmod u+x name_of_script.sh
  ```
  replacing name_of_script with the script's name
+ # Things to know
+ 
+ ## Swap spaces
+ Swap spaces do pose a security risk, however, my scripts do not display the warning as they use the -f switch to force the operation to complete.
+ If you are worried about this you can turn off swap spaces until the next reboot using this command:
+ ```bash
+ sudo swapoff -a
+ ```
  # What do the scripts do?
 
  1. digTomb digs a tomb, forges a key using a password supplied by the user, and locks the tomb
