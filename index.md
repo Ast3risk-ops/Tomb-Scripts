@@ -1,1 +1,1 @@
-# Welcome to the homepage of Tomb-Scripts
+# Welcome to the homepage of Tomb-Scripts.
