@@ -9,23 +9,23 @@
  
  ## Debian/Ubuntu
 
- ```bash
+ ```shell
  sudo apt install gnupg zsh cryptsetup pinentry-curses steghide	
  sudo apt install tomb	
  ```
  ## CentOS/Fedora
- ```bash
+ ```shell
  sudo yum install gnupg zsh cryptsetup pinentry-curses steghide	
  sudo yum install tomb
  ```
  or
- ```bash
+ ```shell
  sudo dnf install gnupg zsh cryptsetup pinentry-curses steghide	
  sudo dnf install tomb
  ```	
 ## Other
 Before doing this please install the prerequisites first. this is just incase you can't install tomb.
-```bash
+```shell
 cd Downloads
 wget -c https://files.dyne.org/tomb/Tomb-2.9.tar.gz
 tar -xzvf Tomb-2.9.tar.gz
@@ -39,20 +39,20 @@ If the wget command doesn't work go [here](https://files.dyne.org/tomb) and down
  click the big green "Code" button, then, click "Download ZIP."
  Extract the zip to any directory.
  Once that is done, run:
- ```bash
+ ```shell
  cd path/to/directory
  ```
  replacing "path/to/directory" with the path to where the files are.
 
  then:
- ```bash
+ ```shell
  ./digTomb.sh
  ```
  to dig your first tomb.
 ## Note
 
  If you have a problem with the scripts not being executable, while in the directory with the scripts in it, type:
- ```bash
+ ```shell
  chmod u+x name_of_script.sh
  ```
  replacing name_of_script with the script's name
