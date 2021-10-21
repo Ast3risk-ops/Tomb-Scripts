@@ -10,19 +10,26 @@
  ## Debian/Ubuntu
 
  ```shell
- sudo apt install gnupg zsh cryptsetup pinentry-curses steghide	
- sudo apt install tomb	
+ sudo apt install gnupg zsh cryptsetup pinentry-curses steghide
  ```
+ ```shell
+ sudo apt install tomb
+ ```
+ 
  ## CentOS/Fedora
  ```shell
- sudo yum install gnupg zsh cryptsetup pinentry-curses steghide	
- sudo yum install tomb
+ sudo yum install gnupg zsh cryptsetup pinentry-curses steghide
  ```
+```shell
+ sudo yum install tomb
+```
  or
  ```shell
- sudo dnf install gnupg zsh cryptsetup pinentry-curses steghide	
+ sudo dnf install gnupg zsh cryptsetup pinentry-curses steghide
+ ```
+```shell
  sudo dnf install tomb
- ```	
+```	
 ## Other
 Before doing this please install the prerequisites first. this is just incase you can't install tomb.
 ```shell
