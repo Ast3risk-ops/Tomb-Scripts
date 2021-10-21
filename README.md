@@ -34,9 +34,17 @@
 Before doing this please install the prerequisites first. this is just incase you can't install tomb.
 ```shell
 cd Downloads
+```
+```shell
 wget -c https://files.dyne.org/tomb/Tomb-2.9.tar.gz
+```
+```shell
 tar -xzvf Tomb-2.9.tar.gz
+```
+```shell
 cd Tomb-2.9
+```
+```shell
 sudo make install
 ```
 Or you can install tomb using your system's package manager.
