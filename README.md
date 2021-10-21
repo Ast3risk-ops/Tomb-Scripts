@@ -74,9 +74,9 @@ If the wget command doesn't work go [here](https://files.dyne.org/tomb) and down
  # Things to know
  
  ## Swap spaces
- Swap spaces do pose a security risk, however, my scripts do not display the warning as they use the -f switch to force the operation to complete.
- If you are worried about this you can turn off swap spaces until the next reboot using this command:
- ```bash
+ Swap spaces do pose a rish to the security of your tombs, however, my scripts do not display the warning as they use the -f switch to force the operation to complete.
+ If you are worried about this you can turn off all swap spaces until the next reboot using this command:
+ ```shell
  sudo swapoff -a
  ```
  # What do the scripts do?
