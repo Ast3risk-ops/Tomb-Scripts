@@ -89,7 +89,7 @@ If the wget command doesn't work go [here](https://files.dyne.org/tomb) and down
  6. slamTomb closes a tomb even if there are processes interacting with it, as closeTomb will not close the tomb if there are processes interacting with the tomb.
  7. listTomb lists all open tombs.
  8. slamAll slams all open tombs.
- 9. resizeTomb.sh resizes a tomb
+ 9. resizeTomb resizes a tomb
 
 
  # Rules of use
