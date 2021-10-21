@@ -93,4 +93,4 @@ If the wget command doesn't work go [here](https://files.dyne.org/tomb) and down
 
 
  # Rules of use
-You can use the scripts for free. You can make improvements but please inform me through GitHub and I will make the changes and attribute you. You can copy and distribute the software so long as you attribute the original author.
+You can use the scripts for free. You can make improvements and contribute. If you wish to make a fork just inform me
