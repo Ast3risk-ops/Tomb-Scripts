@@ -10,7 +10,7 @@
  ## Debian/Ubuntu
 
  ```shell
- sudo apt install gnupg zsh cryptsetup pinentry-curses steghide
+ sudo apt install gnupg zsh cryptsetup pinentry-curses steghide qrencode
  ```
  ```shell
  sudo apt install tomb
@@ -18,14 +18,14 @@
  
  ## CentOS/Fedora
  ```shell
- sudo yum install gnupg zsh cryptsetup pinentry-curses steghide
+ sudo yum install gnupg zsh cryptsetup pinentry-curses steghide qrencode
  ```
 ```shell
  sudo yum install tomb
 ```
  or
  ```shell
- sudo dnf install gnupg zsh cryptsetup pinentry-curses steghide
+ sudo dnf install gnupg zsh cryptsetup pinentry-curses steghide qrencode
  ```
 ```shell
  sudo dnf install tomb
