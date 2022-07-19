@@ -29,7 +29,12 @@
  ```
 ```shell
  sudo dnf install tomb
-```	
+```
+## Arch/Manjaro
+install yay, then:
+```shell
+yay -S tomb-git
+```
 ## Other
 Before doing this please install the prerequisites first. this is just incase you can't install tomb.
 ```shell
