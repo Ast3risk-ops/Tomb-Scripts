@@ -98,4 +98,4 @@ If the wget command doesn't work go [here](https://files.dyne.org/tomb) and down
 
 
  # Rules of use
-You can use the scripts for free. You can make improvements and contribute. If you wish to make a fork just inform me
+Check the LICENSE
