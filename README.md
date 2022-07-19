@@ -34,6 +34,7 @@
 install yay, then:
 ```shell
 sudo pacman -S gpg zsh cryptsetup pinentry steghide qrencode 
+```
 then:
 ```shell
 yay -S tomb-git
